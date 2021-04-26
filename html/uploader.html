@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Uploader</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    </style>
+</head>
+
+<body>
+    <h1>Uploader</h1>
+    <form action="../php/upload.php" method="post" enctype="multipart/form-data">
+        Please select a file
+        <input type="file" name="upfile" required>
+        <p></p>
+        <input type="submit" value="Upload">
+    </form>
+    <p></p>
+    <button><a href="../php/filelist.php" title="Filelist">Filelist</a></button>
+</body>
+
+</html>

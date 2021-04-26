@@ -1,0 +1,56 @@
+:root {
+    font-family: 'Liberation Sans';
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+h1 {
+    background-color: #0000ff;
+    color: yellow;
+}
+
+h2 {
+    color: white;
+}
+
+a {
+    color: white;
+    white-space: pre;
+}
+
+#divfiles>button {
+    float: right;
+}
+
+button,
+input {
+    background-color: black;
+    color: white;
+    border: 2px solid yellow;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+audio {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    text-indent: -10000px;
+}
+
+embed {
+    width: 100%;
+    height: 100vh;
+}
